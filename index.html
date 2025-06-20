@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sahilpreet Singh Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer>
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleBtn = document.getElementById('menu-toggle');
+      const menu = document.getElementById('mobile-menu');
+      toggleBtn.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    });
+  </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="text-gray-800 font-sans">
+    <nav class="bg-white shadow-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16">
+        <div class="flex">
+          <a href="#" class="flex-shrink-0 flex items-center text-xl font-bold text-blue-600">
+            HARSH SHARMA  
+          </a>
+          <div class="hidden md:flex md:ml-6 md:space-x-8">
+            <a href="#aboutme" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600">
+              About Me
+            </a>
+            <a href="#education" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600">
+              Education Qualifications
+            </a>
+            <a href="#" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600">
+              Pedegogy
+            </a>
+            <a href="#learning" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600">
+              Professional Learning
+            </a>
+            <a href="#contact" class="inline-flex items-center px-1 pt-1 text-sm font-medium text-gray-900 hover:text-blue-600">
+              Contact
+            </a>
+          </div>
+        </div>
+        <div class="flex items-center md:hidden">
+          <button id="menu-toggle" type="button" class="inline-flex items-center justify-center p-2 text-gray-800 hover:text-blue-600 focus:outline-none">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2"
+              viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:hidden hidden px-2 pt-2 pb-3 space-y-1" id="mobile-menu">
+      <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">Home</a>
+      <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">About</a>
+      <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">Services</a>
+      <a href="#" class="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:text-blue-600">Contact</a>
+    </div>
+  </nav>
+    <!-- Hero Section -->
+    <section
+      class="relative bg-cover bg-center h-96"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1470163395405-d2b80e7450ed');
+      "
+    >
+      <div
+        class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center"
+      >
+        <h1 class="text-4xl md:text-5xl text-center font-bold text-white">
+          WELCOME TO MY E-PORTFOLIO
+        </h1>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section
+      id="aboutme"
+      class="py-20 md:flex justify-center gap-16 items-center px-4 md:px-16"
+    >
+      <div class="mt-8 md:w-1/2">
+        <h2 class="text-2xl font-semibold mb-4">About me</h2>
+        <p class="leading-relaxed">
+          I am Harsh Sharma, a student in the Early Childhood Education program
+          at Conestoga College, preparing for a career as an early childhood
+          educator. My passion for supporting young children's learning and
+          development inspired me to pursue this field. This e-portfolio
+          highlights my experiences and reflections during field placements,
+          including classroom observations and insights into child development
+          and early education practices. It also includes my CPR and First Aid
+          certifications, demonstrating my commitment to ensuring a safe and
+          nurturing environment for children. Through coursework, practical
+          sessions, and classroom visits, I am developing the skills necessary
+          to create secure, inclusive, and supportive learning environments. My
+          goal is to positively impact the lives of children and their families
+          by fostering environments where children feel safe, valued, and
+          ready to thrive.
+        </p>
+      </div>
+      <div class="">
+        <img
+          src="/images/image.png"
+          alt="Sahilpreet Singh"
+          class="rounded shadow-md w-64 mx-auto md:mx-0"
+        />
+      </div>
+    </section>
+
+    <!-- education section -->
+    <section id="education"  class="bg-yellow-50 py-20 px-4 md:px-16">
+      <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+        <div class="md:max-w-md">
+          <h2 class="text-2xl font-semibold mb-4">Education Qualifications</h2>
+          <p>
+            In preparation of my experience of the field placement, I have and
+            am still attending in-class activities where I will be observing and
+            learning about child development, management of the behavior of the
+            child and early learning techniques. It is in these sessions that I
+            have noted:
+          </p>
+          <ol>
+            <li>
+              The way teachers communicate with the children with positive
+              words.
+            </li>
+            <li>
+              Routine activities such as snack breaks, circle time and going
+              outside Learning at an appropriate age by story telling, music and
+              play
+            </li>
+            <li>Tactics of promoting cooperation and self control</li>
+            <li>The value of healthy, clean and friendly place</li>
+          </ol>
+          <p>
+            These experiences are assisting me in having a solid ground to stand
+            on before going to an actual placement environment.
+          </p>
+        </div>
+        
+         <div class="md:w-1/2">
+           <img
+            src="https://assets.aecf.org/m/blogimg/_largeHeader/blog-highcostchildcare-2023.jpg"
+            alt="ECE Goal"
+            class="rounded shadow-md"
+          />
+         </div>
+      </div>
+
+      <div class="mt-8 flex bg-blue-600 bg-opacity-10 flex-col-reverse justify-center items-center py-12">
+        
+          <img
+            src="/images/image copy.png"
+            class="w-fit"
+            alt=""
+          />
+      
+        <div class=" max-w-lg ">
+          <h2 class="text-2xl font-semibold">Certificates</h2>
+          <h3 class="mb-8">CPR and First Aid Certificates</h3>
+          <div class="w-full mb-8">
+            <p>
+              I have also done and received my CPR (Level C) course and Standard
+              First Aid qualifications as part of the requirements in the
+              program. Such qualifications have empowered me with these
+              abilities and confidence to react to emergencies and protect the
+              safety of the children that I take care of.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reason for Becoming ECE Section -->
+
+    <section id="learning" class="bg-slate-950 text-slate-50 py-16 px-6 md:px-10">
+      <div class="w-full flex flex-col md:flex-row gap-8">
+        <div>
+          <h1 class="text-4xl mb-4 font-semibold">Skills and Learning</h1>
+          <p>
+            I can reach the conclusion that though I have not yet been in a full
+            placement, I have acquired some valuable building blocks of skills
+            simply by observing and practicing in the classroom.
+          </p>
+          <li>
+            Child Observation: observation and deciphering of action and
+            behavior. children & Safety Awareness: knowledge of procedures and
+            coping with simulated emergency cases
+          </li>
+          <li>
+            Team Collaboration: collaborating with classmates to study the child
+            development and classroom settings
+          </li>
+          <li>
+            CPR and First Aid: Qualified to deal with safety cases in real life.
+          </li>
+        </div>
+        <img
+          src="https://lsuonline-static.s3.amazonaws.com/media/images/2023/03/01/LSUO-NR-UC-Childcare-main-main.jpg"
+          alt=""
+          class="w-fit"
+        />
+      </div>
+      <div class="flex flex-col items-center py-8">
+        <h2 class="text-3xl mt-4 font-semibold mb-4">Reflection</h2>
+        <img
+          src="https://content.jdmagicbox.com/v2/comp/mumbai/x4/022pxx22.xx22.180805220016.e1x4/catalogue/majha-maharashtra-nerul-sector-3-navi-mumbai-baby-sitters-6p53gpcuhp.jpg"
+          class="w-full"
+          alt=""
+        />
+        <p class="max-w-2xl mt-8">
+          The observation experiences that have been done in class are very
+          helpful to me though I have not yet started my placement. They have
+          made me learn to see children through a developmental perspective,
+          identify their needs, and know how teachers help them develop. I am
+          better able to enter the field with more confidence and preparation
+          due to my coursework, my observations and my safety training. Sooner
+          than later, I can apply what I have learned in real life setting
+          childcare practice.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact"
+      class="relative bg-cover bg-center text-slate-50 items-center flex justify-center h-64"
+      style="
+        background-image: url('https://images.unsplash.com/photo-1603298672450-146e8ea44a48?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMyfHx8ZW58MHx8fHx8');
+      "
+    >
+      <div class="flex flex md:flex-row justify-center items-center gap-8">
+        <div class="">
+          <h3><strong>Program: </strong>Early Childhood Education</h3>
+          <h3><strong>College: </strong>Conestoga College</h3>
+          <h3><strong>Subject: </strong>Field Placement</h3>
+          <h3><strong>Status: </strong>In-class Observation</h3>
+        </div>
+        
+    </section>
+
+    <script>
+      const nav = document.querySelector("nav-bar")
+    </script>
+  </body>
+</html>
